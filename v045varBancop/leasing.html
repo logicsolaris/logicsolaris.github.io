@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+
+    <meta name="Description" content="Ejemplo maquetacion HTML">
+
+  <link rel="stylesheet" type="text/css" href=ejemploMaquetacionCSS.css>
+  <!--   ejercicio_01_veterinaria   (.css)  -->
+
+  <title>BANCOP :Maquetacion en HTML HOME INDEX</title>
+ </head>
+
+ <body>
+<!--			css :: ES CASE SENSITIVE : NO ES LO MISMO MINUSCULAS DIFF DE MAYUSCULA ( Encabezado (diff) d encabezado )   -->
+  <div	id="encabezado">												<!--				<div	id="Encabezado">    -->
+	<header   id="encabezado"    >										<!-- <header       			id="Encabezado"    -->
+		<h1> BANCOP </h1>
+		<h2> Te ayuda a alcanzar tus metas	 </h2>
+
+  </div>
+	</header>
+
+
+
+		<nav id="menu">														<!-- <nav      			 id="menu"    -->
+		 <!-- <h4> Barra de menu, elemento nav </h4>     -->
+		 <!-- <li> <a href="index.html"> Home </a> </li>    -->
+		 <!-- :: SE REEMPLAZA EL <li>  POR >>     -->
+		 		 <!--     <li style=float:left">   -->
+				 <!--     <a class="active" href="index.html">Home</a></li>  -->
+		<ul>
+
+					<li> <a href="index.html"> Home </a> </li>
+
+								<li> <a href="creditos.html"> Creditos </a> </li>
+
+			
+				<li style=float:left">
+				 <a class="active" href="leasing.html">Leasing</a></li>
+
+
+
+			<li> <a href="ahorros.html"> Ahorros </a> </li>
+			<li> <a href="servicioalcliente.html"> Servicio al cliente </a> </li>
+			<li> <a href="nosotros.html"> Nosotros </a> </li>
+
+		</ul>
+	</nav>
+
+
+
+
+     <main>
+
+	     <div id="columnas" class="columnas">
+		<section>
+			<p> hola </p>
+
+
+
+
+	<form class="miForma" name="formulario">
+
+   	<h2> INGRESA A TU CUENTA</h2> <br>
+	<label for="txtNombre">Numero Cuenta: <label>
+		<input type="text" name="txtNumeroDeCuenta" placeholder="Ingrese Numero de Cuenta.." required> <br />  <br>
+    <!--
+	<input type="number" name"numeroCuenta"    placeholder="Ingrese Numero de Cuenta.. "/> <br />  <br>
+	-->
+	<label for="txtNombre">Tipo de Cuenta: <label>
+		<input type="text" name="txtTipoDeCuenta" placeholder="Ingrese Tipo de Cuenta.." required> <br />  <br>
+
+
+
+			<label for="Clave">Clave:</label>
+	<input type="text" name="clave" placeholder="Ingrese Clave.."/> <br />  <br>
+	
+
+
+	<input type="submit" name="btnEnviar" value="INGRESAR"/>	
+
+	</form>
+
+
+		</section>
+
+
+
+      
+	  <div id="colPortada1" class="col col1">
+        <h2 id="titPortada" class="titPortada"><img class="iconoh2" src="imagenes/leasing.png" />Solicita nuestros productos!</h2>
+
+        <img id="cuidadoMascota" class="imgComplemento" src="imagenes/ahorrar.png" />
+		<br>
+		<p>  En lo que se relaciona con los conceptos de economía, 
+			 uno de los más conocidos es el leasing o arrendamiento financiero </p> 
+		<p> que se da a otra persona para acceder al contrato de alquiler de bienes que puede ser de muebles o inmuebles. 
+		Este tipo de contrato es conocido como leasing. </p>
+
+		<br>
+		<p><a href="guarderia.html" >Ver más...</a></p>
+      </div>
+
+		<br>
+
+      <div id="colPortada2" class="col col2">
+        <h2 id="titPortada2" class="titPortada"><img class="iconoh2" src="imagenes/leasing.png" />
+		Ahorro estudiantil </h2>
+        <img id="cuidadoMascota" class="imgComplemento" src="imagenes/tarjetas.png" />
+		<br>
+        <p>Ahorrar trae beneficios como salir de apuros cuando un gasto imprevisto nos hace su presa, nos da la alegría de comprar un coche, una casa o simplemente ir de vacaciones. Sin embargo, guardar el dinero cuesta mucho.</p> 
+		<br>
+		<p><a href="productos.html">Ver más...</a></p>
+      </div>
+
+
+
+
+		 <!-- 			  
+      <div id="colPortada3" class="col col3">
+        <h2 id="titPortada3" class="titPortada"><img class="iconoh2" src="imagenes/huella.png" /> >Peluquería canina</h2>
+        <img id="cuidadoMascota" class="imgComplemento" src="imagenes/peluqueriaCanina.jpg" />
+        <p>La salud del animal también debe pasar por un control de la salud capilar, verificando la ausencia de dematopatías como seborreas, prurito o piodermas.</p>
+        <p>Somos fanáticos de la salud integral de las mascotas y disponemos de peluquería canina con el champú adecuado para cada tipo de piel, tratando con champús medicamentosos en los casos que lo requieran como parte de un plan integral de salud animal.</p><p><a href="servicios.htm">Ver más...</a>
+      </div>
+				-->
+      
+		
+
+
+			
+
+
+    </div>
+
+	<main>
+
+    <footer class ="piePunto">
+        <p>Contáctenos </p>
+        <p>Linea Gratuita 018000-00001</p>
+        <p>Banco - Entidad Financiera - Todos los derechos Reservados</p>
+    </footer>
+
+
+
+
+<!--   <img src = "ejercicio-01.png" alt ="nombreAlterno" style = "width:725px; height:174px;">  -->
+  <img src = "ejercicio-02.png" alt ="nombreAlterno" ">
+
+  
+
+
+
+
+ </body>
+</html>
+	
+<!-- ejemploMaquetacionCSS.css   -->
+
+<!-- 1.div 2.nav   -->
+
+<!-- 
+
+	<aside   id="lateral </div> ">
+			Elemento barra lateral <br />
+			uno   <br />
+			dos   <br>
+			tres  <br>
+	</aside>
+
+-->
